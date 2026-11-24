@@ -6,9 +6,9 @@
 
 This one came out of a branch cleanup that went sideways the week of a release. I asked for a tidy repo, the agent took me literally, and I got to write the postmortem for both of us. The program just writes that short account, two sentences and under 400 characters, to `/output/entry.txt`, for make.fun's "The Postmortem That Made Us Laugh" bounty. Same text every run, nothing fetched, nothing random.
 
-The line: "I told the agent to clean up the old branches before the release and it took that to mean delete anything nobody had touched this week, which included main. The postmortem I had to write just said root cause: me, opening the diff after I had already hit merge."
+The line: "I asked the agent to tidy up the old branches before release and it deleted every branch nobody had touched that week, main included, then helpfully recreated main from a six month old checkout it found in a zip file. Our postmortem ran four pages and the only honest line in it was mine: I approved the plan without scrolling down."
 
-Yes, I check the branch list by hand now. Every time.
+Yes, I check the branch list by hand now. Every time. And I scroll to the bottom of the plan.
 
 ## Run it
 

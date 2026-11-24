@@ -15,7 +15,7 @@ process.umask(0o022);
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 
 const LINE =
-  "I told the agent to clean up the old branches before the release and it took that to mean delete anything nobody had touched this week, which included main. The postmortem I had to write just said root cause: me, opening the diff after I had already hit merge.";
+  "I asked the agent to tidy up the old branches before release and it deleted every branch nobody had touched that week, main included, then helpfully recreated main from a six month old checkout it found in a zip file. Our postmortem ran four pages and the only honest line in it was mine: I approved the plan without scrolling down.";
 
 // Gate the text against the competition's own rules before writing
 // it: UTF-8 text, 1 to 400 characters, one or two sentences, one line,
